@@ -1,0 +1,310 @@
+<!-- Project: Midterm Sprint, Gary Brown's Diner webpage
+Authors: Luke Peddle, Samantha Thorne, Micheal Walsh
+Date: Feb 19-21st 2024 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gary Blue's Diner</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="Images/Logo.png" alt="Gary Blue's Logo" width="96" height="96">
+
+        <h1>
+            Gary Blue's Diner
+        </h1>
+
+        <nav class="navBar">
+            <a class="navLink" href="index.html">
+                Home
+            </a>
+
+            <a class="navLink" href="menu.html">
+                Menu
+            </a>
+
+            <a class="navLink" href="order.html">
+                Order Now
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class = marginBox>
+            
+        </div>
+        <section id = "forms">
+            <div class = orderBox>
+            <form>
+                <div class = formBox>
+                    <Label for = name>Name:     
+                        <br>
+                    </Label>
+                    <input type = "text" id = "name" name = "name"/>
+                </div>  
+                    <br>                     
+                <div class = formBox>
+                    <Label for = stAdd>Street Address:</Label>
+                    <br>
+                    <input type = "text" id = "stAdd" stAdd = "stAdd"/> 
+                </div>
+
+                    <br>
+                <div class = formBox>
+                    <Label for = city>City:</Label>
+                    <br>
+                    <input type = "text" id = "city" name = "city"/>
+                    </div>
+                    <br>
+                   <div class = formBox>
+                    <Label for = prov>Province(##):</Label>
+                    <br>
+                    <input type = "text" id = "prov" name = "prov" />
+                </div>
+                <br>
+                <div class = formBox id = #postCode>
+                    <Label for = postCode>Postal Code:</Label>
+                    <br>
+                    <input type = "text" id = "postCode" name = "postCode" />
+                  
+                </div>
+
+                <br>
+               
+                <h4><u>Breakfast</u></h4>
+                <div class = formBox id = #bacon>
+                    <input type = "checkbox" id = "baconEggs" name = "baconEggs"/>
+                    <Label for = bacon&Eggs>Bacon & Eggs</Label>
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    
+                    <input type = "text" id = "baconEggsQty" name = "baconEggsQty" size="5"/>
+                    <Label for = baconEggsQty>Qty</Label>
+                </div>
+                    
+                
+               
+                <div class = formBox id = #waffle>
+                   
+
+                    <input type = "checkbox" id = "waffles" name = "waffles"/>
+                    <Label for = waffles>Waffles
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        
+                    </Label>
+                   
+                    <input type = "text" id = "wafflesQty" name = "wafflesQty" size="5"/>
+                    <Label for = wafflesQty>Qty</Label>
+                </div>
+                
+                
+
+                <div class = formBox id = #frenchToasts>
+                     <input type = "checkbox" id = "frenchToast" name = "frenchToast"/>
+                     <Label for = frenchToast>French Toast</Label>
+                         &nbsp
+                         &nbsp
+                         &nbsp
+                         &nbsp
+                         &nbsp
+                         &nbsp
+                                                     
+                     <input type = "text" id = "frenchToastQty" name = "frenchToastQty" size="5"/>
+                     <Label for = frenchToastQty>Qty</Label>
+                </div>
+                <div class = formBox id = #oatmeal>
+                    <input type = "checkbox" id = "oatmeal" name = "oatmeal"/>
+                    <Label for = oatmeal>Oatmeal</Label>
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp
+                        &nbsp                          
+                    <input type = "text" id = "oatmealQty" name = "oatmealQty" size="5"/>
+                    <Label for = oatmealQty>Qty</Label>
+               </div>
+               <div class = formBox id = #bagel>
+                <input type = "checkbox" id = "bagel" name = "bagel"/>
+                <Label for = oatmeal>Bagel</Label> 
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp  
+                    &nbsp
+                    &nbsp                     
+                <input type = "text" id = "bagelQty" name = "bagelQty" size="5"/>
+                <Label for = bagelQty>Qty</Label>
+           </div>
+                     
+                  
+                <h4><u>Dinner</u></h4>
+                 
+                 <div class = formBox is = #bigGarys>    
+                    <input type = "checkbox" id = "bigGarys" name = "bigGarys"/>
+                    <Label for = bigGarys>Big Gary</Label>
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    <input type = "text" id = "bigGarysyQty" name = "bigGarysyQty" size="5"/>
+                    <Label for = bigGarysyQty>Qty</Label>
+                </div>
+                <div class = formBox id = #taters>
+                    <input type = "checkbox" id = "taters" name = "taters"/>
+                    <Label for = taters>Taters
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    &nbsp
+                    </Label>                                    
+                    <input type = "text" id = "tatersQty" name = "tatersQty" size="5"/>
+                    <Label for = tatersQty>Qty</Label>
+                </div>
+                <div class = formBox id = #soup>  
+                     
+                    <input type = "checkbox" id = "soup" name = "soup"/>
+                    <Label for = soup>Soup of the Day
+                    </Label>
+                    &nbsp
+                    &nbsp  
+                    &nbsp             
+                    <input type = "text" id = "soupQty" name = "soupsQty" size="5"/>
+                    <Label for = soupQyt>Qty</Label>
+                </div>
+                <div class = formBox id = #friedChicken>  
+                     
+                    <input type = "checkbox" id = "friedChicken" name = "friedChicken"/>
+                    <Label for = friedChicken>Fried Chicken
+                    </Label>
+                    &nbsp
+                    &nbsp  
+                    &nbsp  
+                    &nbsp  
+                    &nbsp  
+                    <input type = "text" id = "friedChickenQty" name = "friedChickenQty" size="5"/>
+                    <Label for = friedChickenQty>Qty</Label>
+                </div>
+                <div class = formBox id = #salad >  
+                     
+                    <input type = "checkbox" id = "salad" name = "salad"/>
+                    <Label for = salad>Salad 
+                    </Label>
+                    &nbsp
+                    &nbsp  
+                    &nbsp  
+                    &nbsp  
+                    &nbsp  
+                    &nbsp  
+                    &nbsp  
+                    &nbsp
+                    &nbsp  
+                    &nbsp  
+                    &nbsp
+                    &nbsp
+                    <input type = "text" id = "saladQty" name = "saladnQty" size="5"/>
+                    <Label for = saladQty>Qty</Label>
+                </div>
+                <br>
+                <div class = formBox id = #cardholderName>
+                    <Label for = cardholderName>Cardholder Name
+                    </Label>
+                    <br>
+                    <input type = "text" id = "cardholderName" name = "cardholderName"/>
+                </div>
+                <br>
+                <div class = formBox id = #cardNumber>
+                    <Label for = cardNumber>Card Number
+                    </Label>
+                    <br>
+                    <input type = "text" id = "cardNumber" name = "cardNumber"/>
+                </div>
+                <br>
+                <div class = formBox id = #expiry>
+                    <Label for = expiry>Expiry ( MM/YY)
+                    </Label>
+                    <br>
+                    <input type = "text" id = "expiry" name = "expiry"/>
+                </div>
+                <br>
+                <div class = formBox id = #securityCode>
+                    <Label for = securityCode>Security Code
+                    </Label>
+                    <br>
+                    <input type = "text" id = "securityCode" name = "securityCode"/>
+                </div>
+                <br>
+                <input type="submit" value="Submit Order" value="Button"/>
+                <br>
+            </form>
+        </div>
+        <script src="orderForm.js"></script>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">
+            Copyright &copy; Gary Blue's Diner 2023
+        </p>
+
+        <p class="location">
+            Gary Browns
+            <br> 123 Main St.
+            <br> Cluckville, NL
+            <br>  A2H 7N5
+        </p>
+
+        <p class="hours">
+            Hours of Operation:
+            <br> Mon-Fri: 6am-9pm
+            <br> Sat: 8am-10pm
+            <br> Sun: Closed
+        </p>
+
+        <p class="feedback">
+            Got Feedback?
+            <br> (709) 673-4250
+            gary.blues@gmail.com
+        </p>
+
+    </footer>
+</div>
+</body>
+</html>
